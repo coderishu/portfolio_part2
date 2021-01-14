@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Potta+One&display=swap");
+li a {
+  font-family: "Potta One", cursive;
+  color: white;
+}
+.custom_menu {
+  margin-top: 20px;
+  & li:nth-child(1) a:hover {
+    transform: translateY(-11px);
+    transition: 0.5s;
+  }
+
+  & li:nth-child(3) a:hover {
+    transform: translateY(-11px);
+    transition: 0.5s;
+  }
+}
+
+.nav-container {
+  position: absolute;
+  top: 18px;
+  left: 46px;
+}
+.menu .resume-btn {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #e11d74;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Courier prime", Courier, monospace;
+  padding: 4px 16px;
+  text-decoration: none;
+  background-color: black;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+.menu {
+  cursor: pointer;
+  height: 40px;
+  width: 104px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 207, 255, 1) 0%,
+    rgb(238, 255, 0) 33.33%,
+    rgb(255, 0, 247) 66.66%,
+    rgba(0, 207, 255, 1) 100%
+  );
+  position: relative;
+}

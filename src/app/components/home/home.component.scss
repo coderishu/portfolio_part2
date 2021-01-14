@@ -1,0 +1,24 @@
+.hey {
+  color: white;
+  font-size: 60px;
+}
+.name {
+  color: white;
+  font-size: 60px;
+  display: inherit;
+  background: -webkit-linear-gradient(
+    left,
+    rgba(0, 207, 255, 1),
+    rgb(238, 255, 0),
+    rgb(255, 0, 247),
+    rgba(0, 207, 255, 1)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px white;
+}
+.parent {
+  position: absolute;
+  top: 180px;
+  left: 40px;
+}
